@@ -12,3 +12,10 @@ $furwikiSettingsPath = "/www/wwwroot/mw-utils/FurryWiki-Settings";
 wfLoadSkin( 'Vector', "$furwikiSkinsPath/Vector/skin.json" );
 wfLoadSkin( 'Citizen', "$furwikiSkinsPath/Citizen/skin.json" );
 wfLoadSkin( 'Timeless', "$furwikiSkinsPath/Timeless/skin.json" );
+
+$wgDefaultSkin = "Citizen";
+#$wgCitizenSearchDescriptionSource = "wikidata";
+$wgCitizenSearchGateway = 'mwActionApi';
+$wgCitizenEnableCollapsibleSections = false;
+#$wgCitizenThemeColor = "#338c60";
+$wgCitizenMaxSearchResults = 6;
