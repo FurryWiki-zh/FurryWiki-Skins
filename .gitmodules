@@ -1,0 +1,11 @@
+[submodule "Vector"]
+	path = Vector
+	url = https://github.com/wikimedia/mediawiki-skins-Vector.git
+	branch = REL1_43
+[submodule "Timeless"]
+	path = Timeless
+	url = https://github.com/wikimedia/mediawiki-skins-Timeless.git
+	branch = REL1_43
+[submodule "Citizen"]
+	path = Citizen
+	url = https://github.com/StarCitizenTools/mediawiki-skins-Citizen.git
